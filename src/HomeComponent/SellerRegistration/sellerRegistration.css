@@ -1,0 +1,2632 @@
+
+a:active,
+a:hover {
+    outline: 0
+}
+
+button,
+select {
+    text-transform: none
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+input {
+    line-height: normal
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+input[type=search] {
+    -webkit-appearance: none
+}
+
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html {
+    height: 100%
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block
+}
+
+html.w-mod-touch * {
+    background-attachment: scroll !important
+}
+
+.text-center {
+    text-align: center
+}
+
+.w-block {
+    display: block
+}
+
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block
+}
+
+.w-clearfix:after,
+.w-clearfix:before {
+    content: " ";
+    display: table
+}
+
+.w-clearfix:after {
+    clear: both
+}
+
+.w-button {
+    display: inline-block;
+    padding: 9px 15px;
+    background-color: #3898ec;
+    color: #fff !important;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0
+}
+
+input.w-button {
+    -webkit-appearance: button
+}
+
+html[data-w-dynpage] [data-w-cloak] {
+    color: transparent !important
+}
+.seller-contact-us .input-group-addon {
+    border-radius: 4px 0 0 4px;
+    background-color: #ffff;
+    border: 1px solid #e6e6e6;
+    border-right: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    margin-bottom: 10px
+}
+
+h1 {
+    font-size: 38px;
+    line-height: 44px
+}
+
+h1,
+h2 {
+    margin-top: 20px
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 36px
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 20px
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 24px
+}
+
+h4,
+h5 {
+    margin-top: 10px
+}
+
+h5 {
+    font-size: 14px;
+    line-height: 20px
+}
+
+h6 {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 10px
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 10px
+}
+
+button,
+html input[type=button],
+input[type=reset] {
+    border: 0;
+    cursor: pointer;
+    -webkit-appearance: button
+}
+
+.w-form {
+    margin: 0 0 15px
+}
+
+.w-form-done {
+    margin-top: 96px;
+    text-align: left
+}
+
+.w-form-done,
+.w-form-fail {
+    max-width: 496px;
+    margin-bottom: 32px;
+    padding: 12px 0
+}
+
+.form-container.error {
+    border-color: #a94442;
+    border-right: 1px solid
+}
+
+.form-container.error .std-code {
+    border-color: #a94442
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700
+}
+
+.w-input,
+.w-select {
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ccc
+}
+
+.w-input:-moz-placeholder,
+.w-select:-moz-placeholder {
+    color: #999
+}
+
+.w-input::-moz-placeholder,
+.w-select::-moz-placeholder {
+    color: #999;
+    opacity: 1
+}
+
+.w-input:-ms-input-placeholder,
+.w-select:-ms-input-placeholder {
+    color: #999
+}
+
+.w-input::-webkit-input-placeholder,
+.w-select::-webkit-input-placeholder {
+    color: #999
+}
+
+.w-input:focus,
+.w-select:focus {
+    outline: 0
+}
+
+.w-input[disabled],
+.w-input[readonly],
+.w-select[disabled],
+.w-select[readonly],
+fieldset[disabled] .w-input,
+fieldset[disabled] .w-select {
+    cursor: not-allowed;
+    background-color: #eee
+}
+
+textarea.w-input,
+textarea.w-select {
+    height: auto
+}
+
+.w-row:after,
+.w-row:before {
+    content: " ";
+    display: table
+}
+
+.w-row:after {
+    clear: both
+}
+
+.w-row .w-row {
+    margin-left: 0;
+    margin-right: 0
+}
+
+.w-col {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.w-col .w-col {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.w-col-1 {
+    width: 8.33333333%
+}
+
+.w-col-2 {
+    width: 16.66666667%
+}
+
+.w-col-3 {
+    width: 25%
+}
+
+.w-col-4 {
+    width: 33.33333333%
+}
+
+.w-col-5 {
+    width: 41.66666667%
+}
+
+.w-col-6 {
+    width: 50%
+}
+
+.w-col-7 {
+    width: 58.33333333%
+}
+
+.w-col-8 {
+    width: 66.66666667%
+}
+
+.w-col-9 {
+    width: 75%
+}
+
+.w-col-10 {
+    width: 83.33333333%
+}
+
+.w-col-11 {
+    width: 91.66666667%
+}
+
+.w-col-12 {
+    width: 100%
+}
+
+.w-hidden-main {
+    display: none !important
+}
+
+.footer-download-link {
+    display: none
+}
+
+@media screen and (max-width:991px) {
+    .w-hidden-main {
+        display: inherit !important
+    }
+
+    .w-hidden-medium {
+        display: none !important
+    }
+
+    .w-col-medium-1 {
+        width: 8.33333333%
+    }
+
+    .w-col-medium-2 {
+        width: 16.66666667%
+    }
+
+    .w-col-medium-3 {
+        width: 25%
+    }
+
+    .w-col-medium-4 {
+        width: 33.33333333%
+    }
+
+    .w-col-medium-5 {
+        width: 41.66666667%
+    }
+
+    .w-col-medium-6 {
+        width: 50%
+    }
+
+    .w-col-medium-7 {
+        width: 58.33333333%
+    }
+
+    .w-col-medium-8 {
+        width: 66.66666667%
+    }
+
+    .w-col-medium-9 {
+        width: 75%
+    }
+
+    .w-col-medium-10 {
+        width: 83.33333333%
+    }
+
+    .w-col-medium-11 {
+        width: 91.66666667%
+    }
+
+    .w-col-medium-12 {
+        width: 100%
+    }
+
+    .w-col-stack {
+        width: 100%;
+        left: auto;
+        right: auto
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .w-hidden-main,
+    .w-hidden-medium {
+        display: inherit !important
+    }
+
+    .w-hidden-small {
+        display: none !important
+    }
+
+    .w-container .w-row,
+    .w-row {
+        margin-left: 0;
+        margin-right: 0
+    }
+
+    .w-col {
+        width: 100%;
+        left: auto;
+        right: auto
+    }
+
+    .w-col-small-1 {
+        width: 8.33333333%
+    }
+
+    .w-col-small-2 {
+        width: 16.66666667%
+    }
+
+    .w-col-small-3 {
+        width: 25%
+    }
+
+    .w-col-small-4 {
+        width: 33.33333333%
+    }
+
+    .w-col-small-5 {
+        width: 41.66666667%
+    }
+
+    .w-col-small-6 {
+        width: 50%
+    }
+
+    .w-col-small-7 {
+        width: 58.33333333%
+    }
+
+    .w-col-small-8 {
+        width: 66.66666667%
+    }
+
+    .w-col-small-9 {
+        width: 75%
+    }
+
+    .w-col-small-10 {
+        width: 83.33333333%
+    }
+
+    .w-col-small-11 {
+        width: 91.66666667%
+    }
+
+    .w-col-small-12 {
+        width: 100%
+    }
+}
+
+@media screen and (max-width:479px) {
+    .w-container {
+        max-width: none
+    }
+
+    .w-hidden-main,
+    .w-hidden-medium,
+    .w-hidden-small {
+        display: inherit !important
+    }
+
+    .w-hidden-tiny {
+        display: none !important
+    }
+
+    .w-col {
+        width: 100%
+    }
+
+    .w-col-tiny-1 {
+        width: 8.33333333%
+    }
+
+    .w-col-tiny-2 {
+        width: 16.66666667%
+    }
+
+    .w-col-tiny-3 {
+        width: 25%
+    }
+
+    .w-col-tiny-4 {
+        width: 33.33333333%
+    }
+
+    .w-col-tiny-5 {
+        width: 41.66666667%
+    }
+
+    .w-col-tiny-6 {
+        width: 50%
+    }
+
+    .w-col-tiny-7 {
+        width: 58.33333333%
+    }
+
+    .w-col-tiny-8 {
+        width: 66.66666667%
+    }
+
+    .w-col-tiny-9 {
+        width: 75%
+    }
+
+    .w-col-tiny-10 {
+        width: 83.33333333%
+    }
+
+    .w-col-tiny-11 {
+        width: 91.66666667%
+    }
+
+    .w-col-tiny-12 {
+        width: 100%
+    }
+}
+
+.w-nav[data-collapse=all] .w-dropdown,
+.w-nav[data-collapse=all] .w-dropdown-toggle {
+    display: block
+}
+
+.w-nav[data-collapse=all] .w-dropdown-list {
+    position: static
+}
+
+@media screen and (max-width:991px) {
+
+    .w-nav[data-collapse=medium] .w-dropdown,
+    .w-nav[data-collapse=medium] .w-dropdown-toggle {
+        display: block
+    }
+
+    .w-nav[data-collapse=medium] .w-dropdown-list {
+        position: static
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .w-nav[data-collapse=small] .w-dropdown,
+    .w-nav[data-collapse=small] .w-dropdown-toggle {
+        display: block
+    }
+
+    .w-nav[data-collapse=small] .w-dropdown-list {
+        position: static
+    }
+
+    .w-nav-brand {
+        padding-left: 10px
+    }
+
+    .footer-download-link {
+        display: block;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        right: 0
+    }
+
+    .footer-download-link a {
+        background-color: #fd78af;
+        padding: 15px 12px;
+        display: block;
+        text-decoration: none !important;
+        text-align: center;
+        font-weight: 700;
+        font-size: 16px;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1px
+    }
+
+    .download-icon,
+    .download-text {
+        display: inline-block;
+        vertical-align: middle
+    }
+
+    .download-icon {
+        margin-left: 8px;
+        height: 28px;
+        width: 28px;
+        background-color: #fff;
+        border-radius: 50%;
+        padding: 8px
+    }
+
+    .download-icon img {
+        display: inline-block;
+        width: 100%
+    }
+}
+
+@media screen and (max-width:479px) {
+
+    .w-nav[data-collapse=tiny] .w-dropdown,
+    .w-nav[data-collapse=tiny] .w-dropdown-toggle {
+        display: block
+    }
+
+    .w-nav[data-collapse=tiny] .w-dropdown-list {
+        position: static
+    }
+}
+
+.google-play-logo {
+    height: 60px
+}
+
+.growth .image {
+    height: 80px
+}
+
+.logo {
+    height: 32px
+}
+
+.w-nav {
+    position: relative;
+    background: #ddd;
+    z-index: 1000
+}
+
+.w-nav:after,
+.w-nav:before {
+    content: " ";
+    display: table
+}
+
+.w-nav:after {
+    clear: both
+}
+
+.w-nav-brand {
+    float: left;
+    color: #333
+}
+
+.w-nav-brand,
+.w-nav-link {
+    position: relative;
+    text-decoration: none
+}
+
+.w-nav-link {
+    display: inline-block;
+    vertical-align: top;
+    color: #222;
+    padding: 20px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.w-nav-link.w--current {
+    color: #0082f3
+}
+
+.w-nav-menu {
+    position: relative;
+    float: right
+}
+
+.w--nav-menu-open {
+    display: block !important;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #c8c8c8;
+    text-align: center;
+    overflow: visible;
+    min-width: 200px
+}
+
+.w--nav-link-open {
+    display: block;
+    position: relative
+}
+
+.w-nav-overlay {
+    position: absolute;
+    overflow: hidden;
+    display: none;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%
+}
+
+.w-nav-overlay .w--nav-menu-open {
+    top: 0
+}
+
+.w-nav[data-animation=over-left] .w-nav-overlay {
+    width: auto
+}
+
+.w-nav[data-animation=over-left] .w--nav-menu-open,
+.w-nav[data-animation=over-left] .w-nav-overlay {
+    right: auto;
+    z-index: 1;
+    top: 0
+}
+
+.w-nav[data-animation=over-right] .w-nav-overlay {
+    width: auto
+}
+
+.w-nav[data-animation=over-right] .w--nav-menu-open,
+.w-nav[data-animation=over-right] .w-nav-overlay {
+    left: auto;
+    z-index: 1;
+    top: 0
+}
+
+.w-nav-button {
+    position: relative;
+    float: right;
+    padding: 8px;
+    display: none;
+    cursor: pointer;
+    height: 32px;
+    width: 32px;
+    background: url("https://static.meeshosupply.com/web/images/menu.png") no-repeat 50%;
+    background-size: 24px 24px
+}
+
+.w-nav-button.w--open {
+    background-color: #c8c8c8;
+    color: #fff
+}
+
+.w-nav[data-collapse=all] .w-nav-menu {
+    display: none
+}
+
+.w-nav[data-collapse=all] .w-nav-button {
+    display: block
+}
+
+@media screen and (max-width:991px) {
+    .w-nav[data-collapse=medium] .w-nav-menu {
+        display: none
+    }
+
+    .w-nav[data-collapse=medium] .w-nav-button {
+        display: block
+    }
+}
+
+@media screen and (max-width:767px) {
+    .w-nav[data-collapse=small] .w-nav-menu {
+        display: none
+    }
+
+    .w-nav[data-collapse=small] .w-nav-button {
+        display: block
+    }
+
+    .w-nav-brand {
+        padding-left: 10px
+    }
+}
+
+@media screen and (max-width:479px) {
+    .w-nav[data-collapse=tiny] .w-nav-menu {
+        display: none
+    }
+
+    .w-nav[data-collapse=tiny] .w-nav-button {
+        display: block
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+body {
+    font-family: Noto Sans, sans-serif;
+    color: #424242;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .08);
+    margin-bottom: 0;
+    border: none
+}
+
+.container {
+    padding: 0 !important;
+    display: block;
+    width: 1100px !important;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.navbar-logo {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    float: left
+}
+
+.navbar-link {
+    padding: 20px 32px 16px;
+    cursor: pointer;
+    border-bottom: 4px solid #fff
+}
+
+.navbar-link:hover {
+    border-top: none #000;
+    border-right: none #000;
+    border-bottom: 4px solid #ff79b0;
+    border-left-style: none
+}
+
+.section {
+    padding-top: 96px;
+    padding-bottom: 96px
+}
+
+.section.hero {
+    margin-top: 64px;
+    display: block;
+    height: 800px;
+    background-image: url("https://static.meeshosupply.com/web/images/hero-image-landing.jpg");
+    background-size: cover;
+    background-attachment: scroll
+}
+
+.section.growth,
+.section.hero {
+    background-position: 50% 100%;
+    background-repeat: no-repeat
+}
+
+.section.growth {
+    height: 900px;
+    background-image: url("https://static.meeshosupply.com/web/images/growth-bg.jpg");
+    background-size: contain
+}
+
+.section.download-app {
+    background-image: url("https://static.meeshosupply.com/web/images/phone-download-bg.png");
+    background-position: 72% 100%;
+    background-size: 300px;
+    background-repeat: no-repeat
+}
+
+.section.dreams {
+    background-image: url("https://static.meeshosupply.com/web/images/dreams_bg.jpg");
+    background-position: -7% 100%, 0 0
+}
+
+.section.dreams,
+.section.supplier-hero {
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.section.supplier-hero {
+    margin-top: 64px;
+    display: block;
+    background-image: url("https://static.meeshosupply.com/web/images/supplier-hero.jpg");
+    background-position: 50% 100%;
+    background-attachment: scroll
+}
+
+.section.about-us-learn,
+.section.about-us-team-content {
+    padding-top: 0
+}
+
+.section.about-us-team-content {
+    padding-bottom: 48px
+}
+
+.row {
+    margin-top: 96px;
+    margin-right: -16px;
+    margin-left: -16px
+}
+
+.heading {
+    font-family: Noto Serif, sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 400
+}
+
+.heading.white {
+    color: #fff
+}
+
+.heading.cover {
+    font-size: 40px;
+    line-height: 56px
+}
+
+.sub-heading {
+    margin-top: 24px;
+    color: #8a8a8a;
+    font-size: 20px;
+    line-height: 28px
+}
+
+.sub-heading.white {
+    color: #fff
+}
+
+.description {
+    display: inline-block;
+    width: 534px;
+    float: none;
+    clear: none
+}
+
+.description.right {
+    float: none
+}
+
+.description.right.banner {
+    float: right
+}
+
+.hero .description {
+    width: 560px
+}
+
+.section.growth .heading {
+    width: 500px
+}
+
+.section.how-to .heading {
+    width: 485px
+}
+
+.image {
+    margin-right: 16px;
+    float: left
+}
+
+.action,
+.number {
+    margin-bottom: 4px;
+    font-size: 24px;
+    line-height: 32px
+}
+
+.column {
+    padding-right: 16px;
+    padding-left: 16px
+}
+
+.highlight {
+    margin-top: 24px;
+    margin-bottom: 0;
+    height: 2px
+}
+
+.footer-logo {
+    float: none
+}
+
+.company-info {
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #fff
+}
+
+.footer-menu {
+    display: inline-block;
+    float: left;
+    clear: none;
+    padding-left: 65px
+}
+
+.footer-address {
+    color: #fff;
+    font-size: 16px
+}
+
+.footer-address i {
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle
+}
+
+.footer-address p {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 10px
+}
+
+.company-address {
+    color: #fff
+}
+
+.footer-address a {
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 16px
+}
+
+.title {
+    margin-bottom: 32px;
+    color: hsla(0, 0%, 100%, .64)
+}
+
+.footer-link,
+.title {
+    text-decoration: none
+}
+
+.footer-link {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: #fff
+}
+
+.footer-link:hover {
+    color: #fff
+}
+
+.divider {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border-bottom: 2px solid hsla(0, 0%, 100%, .26)
+}
+
+.social-link {
+    margin-right: 24px;
+    padding: 0
+}
+
+.copyright {
+    color: #fff
+}
+
+.form-container {
+    width: 496px;
+    margin-top: 96px;
+    margin-bottom: 32px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-right-style: none;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(270deg, #fff, #fff);
+    background-image: linear-gradient(180deg, #fff, #fff)
+}
+
+.std-code {
+    border-right: 1px solid rgba(0, 0, 0, .1);
+    color: #8a8a8a
+}
+
+.form-input,
+.std-code {
+    display: inline-block;
+    padding: 12px;
+    float: left
+}
+
+.form-input {
+    width: 298px;
+    height: 48px;
+    margin-top: 0;
+    margin-bottom: 0;
+    clear: none;
+    border: 1px solid #fff;
+    font-size: 16px;
+    line-height: 24px
+}
+
+.form-input::-webkit-input-placeholder {
+    color: #8a8a8a;
+    font-size: 16px;
+    line-height: 24px
+}
+
+.form-input:-ms-input-placeholder {
+    color: #8a8a8a;
+    font-size: 16px;
+    line-height: 24px
+}
+
+.form-input::placeholder {
+    color: #8a8a8a;
+    font-size: 16px;
+    line-height: 24px
+}
+
+.submit-button {
+    margin-right: 0;
+    padding: 12px 24px;
+    float: left;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #ff79b0;
+    background-image: -webkit-linear-gradient(0deg, #ff79b0, #c67cd7);
+    background-image: linear-gradient(90deg, #ff79b0, #c67cd7)
+}
+
+.form {
+    width: 496px;
+    margin-bottom: 0
+}
+
+.block-container {
+    margin-top: 64px;
+    margin-bottom: 96px
+}
+
+.button {
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-image: -webkit-linear-gradient(0deg, #ff79b0, #c67cd7);
+    background-image: linear-gradient(90deg, #ff79b0, #c67cd7);
+    font-size: 16px
+}
+
+.button:hover {
+    color: #fff
+}
+
+.profile-scroll {
+    position: static;
+    width: 3000px
+}
+
+.profiles-container {
+    position: static;
+    overflow: auto
+}
+
+.profile {
+    display: inline-block;
+    margin-right: 16px
+}
+
+.follow-us img {
+    height: 40px
+}
+.seller-form {
+    max-width: 480px;
+    margin: auto;
+}
+.section.reseller-profiles,
+.section.section-news {
+    background-color: #fafafa
+}
+
+.section.section-news .news-images {
+    margin-top: 64px
+}
+
+.section.section-news .news-images .w-col:first-child,
+.section.section-news .news-images .w-col:nth-child(2),
+.section.section-news .news-images .w-col:nth-child(3),
+.section.section-news .news-images .w-col:nth-child(4) {
+    margin-bottom: 32px
+}
+
+.section.section-news .news-images img {
+    max-width: 100%
+}
+
+.about-us {
+    font-family: Noto Sans, sans-serif
+}
+
+.about-hero {
+    padding-top: 48px;
+    margin-top: 64px;
+    display: block;
+    height: 900px;
+    background-image: url("https://static.meeshosupply.com/web/images/hero-image-team.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll
+}
+
+.about-title {
+    font-family: Noto Serif, sans-serif;
+    width: 533px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: normal;
+    color: #292929
+}
+
+.about-title.white,
+.about-us-description.white {
+    color: #fff
+}
+
+.number-heading {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: normal;
+    color: #525252
+}
+
+.number-description {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: normal;
+    color: #8f8f8f
+}
+
+.about-us-team {
+    display: block;
+    height: 500px;
+    background-image: url("https://static.meeshosupply.com/web/images/group-photo.jpg");
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll
+}
+
+.about-us-title {
+    font-family: Noto Serif, sans-serif;
+    width: 533px;
+    max-width: 100%;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: normal;
+    color: #292929
+}
+
+.about-us-bound .about-us-title {
+    width: 570px
+}
+
+.about-us-description {
+    margin-top: 24px;
+    width: 533px;
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: normal;
+    color: #8f8f8f
+}
+
+.about-us-team-learn,
+.about-us-team-link {
+    margin-top: 64px;
+    text-align: center
+}
+
+.about-us-team-learn a.button,
+.about-us-team-link a.button,
+.become-supplier-link a.button {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 12px 40px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff
+}
+
+.about-us-team-link-email {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #8f8f8f
+}
+
+.about-us-team-link-email a {
+    text-decoration: underline !important;
+    display: inline-block;
+    margin-left: 3px;
+    color: #ff79b0 !important
+}
+
+.about-hero .about-us-team-link-email {
+    margin-top: 10px
+}
+
+.about-hero .about-us-team-link-email a {
+    display: inline-block;
+    margin-left: 3px
+}
+
+.image-layers {
+    padding: 0 16px
+}
+
+.image-layers .w-row {
+    margin-left: -10px;
+    margin-right: -10px
+}
+
+.image-layers .w-row .column {
+    padding-left: 6px;
+    padding-right: 6px
+}
+
+.tech-stack .w-row {
+    margin-top: 64px
+}
+
+.tech-stack.container {
+    margin-top: 32px
+}
+
+.tech-stack-heading {
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #525252
+}
+
+.tech-stack-images {
+    margin-top: 20px;
+    max-width: 70%
+}
+
+.about-us-discover-content {
+    margin-top: 64px
+}
+
+.about-us-discover-content img {
+    width: 80px;
+    margin-bottom: 20px
+}
+
+.about-us-discover-content img.highlight {
+    width: 32px;
+    margin-top: 15px;
+    margin-bottom: 0
+}
+
+.about-us-team-details,
+.team-member-row-2 {
+    margin-top: 64px
+}
+
+.team-member-name {
+    margin-top: 16px;
+    font-size: 16px;
+    color: #525252
+}
+
+.team-member-name,
+.team-member-role {
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal
+}
+
+.team-member-role {
+    font-size: 14px;
+    color: #8f8f8f
+}
+
+.about-team-member {
+    margin-bottom: 64px
+}
+
+.team-member-photo {
+    position: relative
+}
+
+.step-up {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: opacity .5s linear, -webkit-transform .5s ease;
+    transition: opacity .5s linear, transform .5s ease;
+    -webkit-transition-delay: .3s !important;
+    transition-delay: .3s !important
+}
+
+.about-team-hero {
+    position: relative;
+    padding: 0 0 150%;
+    overflow: hidden;
+    -webkit-transition: opacity .4s linear, -webkit-transform .4s linear;
+    transition: all .4s linear
+}
+
+.about-team-hero img.team-member-image {
+    z-index: -1;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+
+.bio {
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 32px 32px;
+    font-size: 14px;
+    -webkit-transform: translateY(15px);
+    transform: translateY(15px);
+    opacity: 0;
+    -webkit-transition: opacity .4s linear, -webkit-transform .4s linear;
+    transition: opacity .4s linear, transform .4s linear
+}
+
+.bio p {
+    color: #fff
+}
+
+.about-team-hero:after {
+    display: block;
+    content: " ";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background: #000;
+    opacity: 0;
+    -webkit-transition: opacity .4s linear;
+    transition: opacity .4s linear
+}
+
+.bio-social {
+    display: block;
+    float: left;
+    margin: 15px 10px 0 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    overflow: hidden;
+    -webkit-transition: -webkit-transform .15s linear;
+    transition: transform .15s linear
+}
+
+.about-team-hero:hover .bio {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition-delay: .15s;
+    transition-delay: .15s
+}
+
+.about-team-hero:hover {
+    background-color: rgba(0, 0, 0, .7)
+}
+
+.hamburger {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    cursor: pointer
+}
+
+.hamburger span {
+    width: 25px;
+    height: 4px;
+    position: absolute;
+    background: #ff79b0;
+    transition: all .5s ease-in-out
+}
+
+.hamburger .elem1 {
+    margin: 0
+}
+
+.hamburger .elem2 {
+    margin-top: 10px
+}
+
+.hamburger .elem3 {
+    margin-top: 20px
+}
+
+.footer-right {
+    margin-top: 9px
+}
+
+.we-are-hiring {
+    margin-top: 16px;
+    margin-right: 10px;
+    position: relative;
+    text-decoration: none;
+    letter-spacing: normal;
+    color: #ff79b0;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-size: 142px 32px;
+    border-radius: 4px;
+    background: url("https://static.meeshosupply.com/web/images/we_are_hiring_bg.png") no-repeat;
+    height: 32px;
+    width: 142px
+}
+
+.we-are-hiring,
+.we-are-hiring:before {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.we-are-hiring:before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ff79b0;
+    margin-right: 8px
+}
+
+.we-are-hiring:hover {
+    color: #ff79b0
+}
+
+.how-to .block-container {
+    margin-left: -16px;
+    margin-right: -16px
+}
+
+.social-icon {
+    display: block;
+    width: 36px;
+    height: 36px;
+    background-size: 36px 36px;
+    background-repeat: no-repeat;
+    background-position: 50%
+}
+
+.facebook-icon {
+    background-image: url("https://static.meeshosupply.com/web/images/facebook.png")
+}
+
+.linkedin-icon {
+    background-image: url("https://static.meeshosupply.com/web/images/linkedin.png")
+}
+
+.twitter-icon {
+    background-image: url("https://static.meeshosupply.com/web/images/twitter.png")
+}
+
+.instagram-icon {
+    background-image: url("https://static.meeshosupply.com/web/images/instagram.png")
+}
+
+.youtube-icon {
+    background-image: url("https://static.meeshosupply.com/web/images/youtube.png")
+}
+
+.dribbble-icon {
+    background-image: url("https://static.meeshosupply.com/web/images/dribbble.png")
+}
+
+.medium-icon {
+    background-image: url("https://static.meeshosupply.com/web/images/medium.png")
+}
+
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    transition-property: opacity
+}
+
+.carousel-fade .carousel-inner .active {
+    opacity: 1
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1
+}
+
+.carousel-fade .carousel-control {
+    z-index: 2
+}
+
+.hero-button {
+    margin-top: 32px;
+    padding: 12px 40px;
+    border-radius: 4px;
+    font-size: 16px
+}
+
+.about-us-discover-content .column {
+    padding: 0 32px
+}
+
+.about-us-discover-content .column .number-description {
+    margin-top: 16px
+}
+
+.what-we-need {
+    margin-top: 32px
+}
+
+.supplier-how-to-works {
+    background-color: #fafafa
+}
+
+.supplier-how-to-works .second-row,
+.why-sell-through-us .second-row {
+    margin-top: 48px
+}
+
+.why-sell-through-us-content {
+    margin-top: 64px
+}
+
+.supplier-how-to-works .number-description,
+.why-sell-through-us-content .number-description {
+    margin-top: 16px
+}
+
+.supplier-submit {
+    display: block;
+    margin: 32px 0 0;
+    border-radius: 4px;
+    padding: 12px 48px
+}
+
+.play-store-link {
+    margin-left: 10px
+}
+
+@media (-webkit-transform-3d),
+(transform-3d) {
+
+    .carousel-fade .carousel-inner>.item.active.left,
+    .carousel-fade .carousel-inner>.item.active.right,
+    .carousel-fade .carousel-inner>.item.next,
+    .carousel-fade .carousel-inner>.item.prev {
+        opacity: 0;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+
+    .carousel-fade .carousel-inner>.item.active,
+    .carousel-fade .carousel-inner>.item.next.left,
+    .carousel-fade .carousel-inner>.item.prev.right {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+.carousel-caption {
+    text-shadow: 0 1px 4px rgba(0, 0, 0, .9);
+    font-size: 17px
+}
+
+.carousel-caption h3 {
+    font-size: 30px
+}
+
+.carousel-inner .w-row {
+    margin-left: -16px;
+    margin-right: -16px
+}
+
+.reseller-detail {
+    position: relative;
+    width: 100%
+}
+
+.reseller-detail img {
+    border-radius: 4px
+}
+
+.reseller-info {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 16px;
+    background: linear-gradient(180deg, transparent, #000);
+    border-radius: 0 0 4px 4px
+}
+
+.reseller-name {
+    font-size: 20px;
+    line-height: 28px
+}
+
+.reseller-img img {
+    position: relative;
+    display: block
+}
+
+.become-supplier-link,
+.reseller-details-name {
+    margin-top: 32px
+}
+
+.seller-contact-us .seller-contact-us-success {
+    padding: 12px 0;
+    color: #ff79b0;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(0deg, rgba(255, 121, 176, .16), rgba(198, 124, 215, .16));
+    background-image: linear-gradient(90deg, rgba(255, 121, 176, .16), rgba(198, 124, 215, .16))
+}
+
+.seller-contact-us .react-select-box-clear {
+    top: 10px
+}
+
+.seller-contact-us .react-select-box-label {
+    color: #525252
+}
+
+.facebook-bound {
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .08)
+}
+
+.facebook_announcement {
+    max-width: 700px;
+    margin: 80px auto 0;
+    padding-bottom: 30px
+}
+
+.facebook-description {
+    font-size: 16px;
+    line-height: 28px;
+    color: #8f8f8f;
+    text-align: justify
+}
+
+.facebook-description,
+.facebook-title {
+    margin-top: 36px;
+    max-width: 100%;
+    letter-spacing: normal
+}
+
+.facebook-title {
+    font-family: Noto Serif, sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    color: #292929
+}
+
+@media only screen and (max-width:1200px) and (min-width:992px) {
+    .container {
+        max-width: 100%;
+        padding: 0 20px !important
+    }
+
+    .section.growth {
+        height: 830px
+    }
+
+    .section.growth .row {
+        margin: 30px 0 0
+    }
+
+    .section.growth .column {
+        display: inline-block;
+        float: none;
+        vertical-align: middle
+    }
+
+    .section.how-to {
+        background-size: 460px
+    }
+
+    .section.how-to .description .block-container {
+        text-align: left;
+        margin-bottom: 0
+    }
+
+    .section.how-to .block-container .block:last-child {
+        padding-bottom: 40px;
+        margin-bottom: 0
+    }
+
+    .section.dreams .description.right.banner {
+        float: none
+    }
+
+    .section.dreams {
+        background-position: 0 100%, 0 0
+    }
+
+    .section.download-app {
+        background-position: 95% 100%;
+        padding-bottom: 60px
+    }
+
+    .footer-menu {
+        padding-left: 80px
+    }
+
+    .why-sell-through-us-content .column {
+        min-height: 250px
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .why-sell-through-us-content .column {
+        min-height: 250px
+    }
+
+    .section {
+        padding: 72px 0
+    }
+
+    .about-hero {
+        height: 720px
+    }
+
+    .about-hero .column {
+        width: 100%
+    }
+
+    .hero-button {
+        width: 270px;
+        margin: auto
+    }
+
+    .hero-links {
+        margin: 24px auto 0
+    }
+
+    #homePageWrapper .section.how-to .description .heading,
+    #homePageWrapper .section.how-to .description .sub-heading {
+        width: 100%;
+        padding-right: 0
+    }
+
+    #homePageWrapper .section.earnings .description .heading {
+        width: 100% !important;
+        padding-right: 0
+    }
+
+    .section.growth .description {
+        text-align: center
+    }
+
+    .container {
+        width: 640px !important
+    }
+
+    .section.hero {
+        background-position: 101% 100%;
+        background-size: 960px
+    }
+
+    .section.growth,
+    .section.hero {
+        padding-top: 72px;
+        padding-bottom: 72px
+    }
+
+    .section.growth {
+        height: 830px
+    }
+
+    .section.how-to {
+        padding-top: 72px;
+        background-position: 50% 100%;
+        background-size: 440px
+    }
+
+    .section.download-app {
+        height: 865px;
+        background-position: 50% 100%
+    }
+
+    .section.dreams {
+        height: 700px;
+        background-size: cover;
+        background-position: 0 100%, 0 0
+    }
+
+    .row {
+        margin-top: 72px
+    }
+
+    .google-play-link {
+        margin-top: 32px
+    }
+
+    .description {
+        display: block;
+        width: 640px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center
+    }
+
+    .footer-logo.w--current,
+    .image {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        float: none
+    }
+
+    .footer-logo.w--current {
+        text-align: center
+    }
+
+    .footer-menu {
+        padding-left: 0;
+        float: none
+    }
+
+    .company-details,
+    .footer-menu {
+        display: block;
+        margin-right: auto;
+        margin-left: auto
+    }
+
+    .block-container {
+        margin-bottom: 0
+    }
+
+    .button {
+        display: block;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        font-size: 16px
+    }
+
+    .image-2 {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        float: none
+    }
+
+    .menu-button {
+        margin-top: 16px;
+        border: 1px solid rgba(0, 0, 0, .1);
+        border-radius: 5px
+    }
+
+    .icon {
+        color: #ff79b0
+    }
+
+    .about-us-bound .w-col-6,
+    .about-us-discover .w-col-6,
+    .about-us-learn .w-col-6,
+    .about-us-team-content .w-col-6,
+    .about-us-tech-stack .w-col-6,
+    .footer .w-col-6 {
+        width: 100%
+    }
+
+    .footer-right-column {
+        margin-top: 48px;
+        text-align: center
+    }
+
+    .about-title,
+    .about-us-description,
+    .about-us-title {
+        width: 100%;
+        text-align: center
+    }
+
+    .about-us-team-learn,
+    .about-us-team-link {
+        margin-top: 40px
+    }
+
+    .about-us-team-details .w-col-4,
+    .image-layers .w-col-3 {
+        width: 50%
+    }
+
+    .image-layers .w-col-3.second-row {
+        margin-top: 16px
+    }
+
+    .about-us-team-details .w-col-4 {
+        margin-bottom: 40px
+    }
+
+    .team-member-row-2 {
+        margin-top: 0
+    }
+
+    .footer-row .w-col-6 {
+        width: 100%;
+        text-align: center
+    }
+
+    .footer-row .w-col-6:first-child {
+        margin-bottom: 20px
+    }
+
+    .w-nav-menu.menu-visible {
+        padding: 10px 0;
+        display: block !important;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 60px;
+        background: #fff;
+        box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .08)
+    }
+
+    .w-nav-menu.menu-visible a {
+        display: block !important;
+        padding: 10px 16px;
+        cursor: pointer
+    }
+
+    .w-nav-menu.menu-visible a:hover {
+        border-bottom: 4px solid #fff
+    }
+
+    .company-info,
+    .team-member-detail {
+        text-align: center
+    }
+
+    .footer-address {
+        margin-top: 48px
+    }
+
+    .footer-address .title {
+        margin-bottom: 16px
+    }
+
+    .bio-social {
+        display: inline-block;
+        float: none;
+        vertical-align: middle
+    }
+
+    .section.growth .heading {
+        width: 100%
+    }
+
+    .details {
+        margin-top: 16px;
+        text-align: center
+    }
+
+    .section.section-news .news-images .w-col:nth-child(5),
+    .section.section-news .news-images .w-col:nth-child(6) {
+        margin-bottom: 32px
+    }
+}
+
+@media (max-width:767px) {
+    .facebook_announcement {
+        padding: 0 16px 20px
+    }
+
+    .bio {
+        text-align: center;
+        padding: 0 16px 24px
+    }
+
+    .bio-social {
+        margin: 10px 2.5px 0
+    }
+
+    .container {
+        width: 400px !important
+    }
+
+    .navbar-logo {
+        padding-left: 0
+    }
+
+    .section.hero {
+        height: 700px;
+        background-position: 93% 100%;
+        background-size: 960px
+    }
+
+    .section.growth,
+    .section.hero {
+        padding-top: 48px;
+        padding-bottom: 48px
+    }
+
+    .section.growth {
+        height: 1100px;
+        background-size: 1000px
+    }
+
+    .section.growth .row {
+        margin-left: 0;
+        margin-right: 0
+    }
+
+    .section.how-to {
+        text-align: center;
+        padding-top: 48px
+    }
+
+    .section.download-app {
+        height: 865px;
+        padding-top: 48px;
+        padding-bottom: 48px;
+        background-position: 50% 100%
+    }
+
+    .section.dreams {
+        height: 600px;
+        background-size: 1080px auto;
+        padding-top: 48px;
+        padding-bottom: 48px;
+        background-position: 25% 100%, 0 0
+    }
+
+    .heading,
+    .heading.cover {
+        font-size: 24px;
+        line-height: 32px
+    }
+
+    .sub-heading {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .description {
+        width: 400px
+    }
+
+    .block.numbers {
+        text-align: center;
+        margin-bottom: 40px
+    }
+
+    .growth .image {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        float: none
+    }
+
+    .footer-logo {
+        padding-left: 0
+    }
+
+    .company-info {
+        margin-bottom: 0
+    }
+
+    .company-details {
+        width: 400px
+    }
+
+    .block-container {
+        margin-top: 48px
+    }
+
+    .block.steps {
+        margin: auto auto 40px
+    }
+
+    .about-us-discover-content .w-col,
+    .about-us-number .w-col,
+    .tech-stack .w-col {
+        margin-bottom: 48px;
+        text-align: center
+    }
+
+    .about-us-discover-content .w-col:last-child,
+    .about-us-number .w-col:last-child,
+    .tech-stack .w-col:last-child {
+        margin-bottom: 0
+    }
+
+    .about-us-number .highlight {
+        margin-top: 15px
+    }
+
+    .section {
+        padding-top: 48px;
+        padding-bottom: 48px
+    }
+
+    .tech-stack-images {
+        margin: 24px auto 0
+    }
+
+    .tech-stack .w-row {
+        margin-top: 0
+    }
+
+    .about-title {
+        width: 100%;
+        text-align: center
+    }
+
+    .about-us-discover-content {
+        margin-top: 48px
+    }
+
+    .footer-logo.w--current {
+        display: inline-block;
+        margin-left: 0;
+        float: none;
+        text-align: center
+    }
+
+    .company-details {
+        display: block;
+        text-align: center
+    }
+
+    .footer-menu {
+        display: inline-block;
+        width: 100%;
+        margin-top: 48px;
+        margin-left: 0;
+        float: none;
+        text-align: center
+    }
+
+    .carousel-inner .item .column {
+        width: 100%
+    }
+
+    .carousel-inner .item {
+        margin-bottom: 32px
+    }
+
+    .hero .description,
+    .section.growth .heading,
+    .section.how-to .heading {
+        width: 100%
+    }
+
+    .section.earnings .block-container .column {
+        margin-top: 32px;
+        margin-bottom: 32px
+    }
+
+    .section.earnings .block-container .column:last-child {
+        margin-bottom: 0
+    }
+
+    .section.earnings .block-container .column .highlight {
+        margin-top: 16px
+    }
+
+    .section.earnings .block-container {
+        margin-top: 32px
+    }
+
+    .about-us-team-details .w-col-4 {
+        width: 100%
+    }
+
+    .why-sell-through-us-content .column {
+        min-height: auto;
+        margin-top: 32px
+    }
+
+    .what-we-need .inline-block:last-child {
+        display: block
+    }
+
+    .what-we-need .inline-block:last-child span {
+        margin-top: 32px
+    }
+
+    .why-sell-through-us-content {
+        margin-top: 32px;
+        text-align: center
+    }
+
+    .heading-1 {
+        line-height: 1.5
+    }
+
+    .section.supplier-hero {
+        height: 1100px;
+        background-position: 78% 100%
+    }
+
+    .section.section-news .news-images .w-col:nth-child(7) {
+        margin-bottom: 32px
+    }
+
+    .about-hero {
+        height: 850px
+    }
+
+    .about-us-team {
+        height: 300px
+    }
+
+    .news-images a {
+        display: block;
+        text-align: center
+    }
+
+    .section.section-news .news-images img {
+        max-width: 220px
+    }
+}
+
+@media (max-width:479px) {
+    .section {
+        padding-left: 16px;
+        padding-right: 16px
+    }
+
+    .company-details,
+    .container,
+    .footer-menu {
+        width: 100% !important
+    }
+
+    .section.hero {
+        height: 700px;
+        background-position: 91% 100%;
+        background-repeat: no-repeat;
+        background-attachment: scroll
+    }
+
+    .section.growth,
+    .section.hero {
+        padding-top: 48px;
+        padding-bottom: 48px;
+        background-size: 700px
+    }
+
+    .section.growth {
+        height: 1150px;
+        background-position: 50% 100%
+    }
+
+    .section.how-to {
+        padding-top: 48px;
+        padding-bottom: 48px;
+        background-position: 62% 100%;
+        background-size: 300px
+    }
+
+    .section.download-app {
+        height: 800px;
+        padding-top: 48px;
+        padding-bottom: 48px;
+        background-position: 50% 100%;
+        background-size: 240px;
+        max-height: 900px
+    }
+
+    .section.dreams {
+        padding-top: 48px;
+        padding-bottom: 48px;
+        background-position: 20% 100%, 0 0;
+        height: 534px;
+        background-size: 960px auto
+    }
+
+    .row {
+        margin-top: 32px
+    }
+
+    .heading,
+    .heading.cover {
+        font-size: 24px;
+        line-height: 32px
+    }
+
+    .sub-heading {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .google-play-logo {
+        margin-top: 32px
+    }
+
+    .play-store-link {
+        margin: 0 !important
+    }
+
+    .description {
+        display: block;
+        width: 100%
+    }
+
+    .description.right {
+        display: inline-block;
+        float: none
+    }
+
+    .description.right.banner {
+        display: block;
+        float: none
+    }
+
+    .block.numbers {
+        padding-top: 24px;
+        padding-bottom: 24px
+    }
+
+    .block.steps {
+        width: 328px;
+        padding-right: 24px;
+        padding-left: 24px
+    }
+
+    .block.steps,
+    .image {
+        display: inline-block
+    }
+
+    .image {
+        margin-right: 0;
+        margin-bottom: 16px;
+        float: none;
+        clear: none
+    }
+
+    .number {
+        clear: both
+    }
+
+    .text {
+        clear: none
+    }
+
+    .footer-logo {
+        margin-left: 16px;
+        padding-left: 0
+    }
+
+    .company-info {
+        display: block;
+        margin-bottom: 0
+    }
+
+    .follow-us {
+        padding-left: 0;
+        -webkit-justify-content: space-around;
+        justify-content: space-around;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+
+    .follow-us,
+    .follow-us.mobile {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex
+    }
+
+    .follow-us.mobile {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row
+    }
+
+    .social-link {
+        display: inline-block;
+        margin-right: 0;
+        margin-left: 4px;
+        padding: 8px 8px 8px 10px;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1
+    }
+
+    .block-container {
+        margin-bottom: 32px
+    }
+
+    .button {
+        display: block;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border-radius: 5px;
+        background-image: -webkit-linear-gradient(0deg, #ff79b0, #c67cd7);
+        background-image: linear-gradient(90deg, #ff79b0, #c67cd7);
+        font-size: 16px
+    }
+
+    .about-us-team-details .w-col-4,
+    .image-layers .w-col-3 {
+        width: 100%;
+        text-align: center;
+        padding: 0
+    }
+
+    .image-layers .w-row {
+        margin: 0
+    }
+
+    .image-layers .w-row .column {
+        padding: 0;
+        margin-bottom: 16px
+    }
+
+    .about-us-team-details .w-col-4:last-child,
+    .image-layers .w-row .column:last-child {
+        margin-bottom: 0
+    }
+
+    .about-us-bound .w-col-6,
+    .about-us-discover .w-col-6,
+    .about-us-learn .w-col-6,
+    .about-us-team-content .w-col-6,
+    .about-us-tech-stack .w-col-6 {
+        padding: 0
+    }
+
+    .w-nav .container {
+        padding: 0 16px !important
+    }
+
+    #homePageWrapper .slider {
+        padding: 0
+    }
+
+    .carousel-inner .item .column {
+        width: 100%;
+        margin-bottom: 32px
+    }
+
+    .carousel-inner .item {
+        margin-bottom: 0
+    }
+}
+
+@media (max-width:460px) {
+    .about-hero {
+        height: 1020px
+    }
+}
